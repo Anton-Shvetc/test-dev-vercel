@@ -4,7 +4,7 @@ const product = require("./api/product");
 
 app.use(express.json({ extended: false }));
 
-app.use("/api/product", (req, res) => {
+app.use("/login", (req, res) => {
   try {
     res.send("Hello!");
   } catch (error) {
